@@ -22,7 +22,7 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: John's Blog
+  title: Jhon Glidden
   type: website
   description: Portfolio and personal blog of John Doe.
   image: images/author/john.png
