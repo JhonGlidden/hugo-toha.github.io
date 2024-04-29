@@ -34,10 +34,11 @@ module:
 markup:
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: false
+
   tableOfContents:
     startLevel: 2
-    endLevel: 6
+    endLevel: 5
     ordered: false
 
 # At least HTML and JSON are required for the main HTML content and
@@ -90,7 +91,7 @@ params:
       # Share post on different social media
       shareButtons:
         facebook: false
-        twitter: false
+        twitter: true
         linkedin: true
         reddit: false
         whatsapp: false

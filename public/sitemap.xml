@@ -180,13 +180,7 @@
     <loc>http://localhost:1313/search/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/category/sub-category/_index.bn/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/category/_index.bn/</loc>
-  </url><url>
     <loc>http://localhost:1313/notes/_index.bn/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/_index.bn/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/bash/_index.bn/</loc>
   </url>
