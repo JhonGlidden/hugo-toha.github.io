@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Data Specialist
+designation: Data Engineer
 # your company information
 company:
   name: Grupo Creativo Herrera.
