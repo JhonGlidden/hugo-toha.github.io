@@ -52,7 +52,7 @@ experiences:
     # darklogo: /images/sections/experiences/company2.jpg
     overview: Grupo Creativo Herrera is a company based in marketing and publicity.
   positions:
-  - designation: Data Scientist
+  - designation: Data Engineer
     start: September 2023
     end: Present
     responsibilities:
@@ -72,7 +72,7 @@ experiences:
     # darklogo: /images/sections/experiences/company2.jpg
     overview: I was a freelancer.
   positions:
-  - designation: Data Scientist
+  - designation: Data Scientist - Data Engineer
     start: March 2023
     end: August 2023
     responsibilities:
