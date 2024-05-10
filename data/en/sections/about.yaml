@@ -61,7 +61,7 @@ socialLinks:
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Curriculum"
+- title: "Download my CV"
   url: "files/Jhon_Nacata_CV.pdf"
 
 # Show your badges
