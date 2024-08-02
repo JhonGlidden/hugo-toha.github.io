@@ -6,14 +6,14 @@
     <description>Recent content in Basic on Jhon Glidden</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="http://localhost:1313/categories/basic/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Introduction</title>
+    <lastBuildDate>Thu, 08 Jun 2023 08:06:25 +0600</lastBuildDate><atom:link href="http://localhost:1313/categories/basic/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Introducción</title>
       <link>http://localhost:1313/posts/introduction/</link>
-      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      <pubDate>Thu, 08 Jun 2023 08:06:25 +0600</pubDate>
       
       <guid>http://localhost:1313/posts/introduction/</guid>
-      <description>Greeting! This is an introduction post. This post tests the followings:
-Hero image is in the same directory as the post. This post should be at top of the sidebar. Post author should be the same as specified in author.yaml file. </description>
+      <description>Gracias por venir! vas a ver:
+Publicaciones de ciencia y técnologia. Tutoriales y ejercicios. </description>
     </item>
     
     <item>
