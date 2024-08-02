@@ -23,9 +23,9 @@ skills:
 
 
 
-- name: Azure Cloud
+- name: Cloud
   logo: /images/sections/skills/cloud.png
-  summary: "I work mainly with Azure Cloud such as Azure DataFactory, Azure SQL Database, Azure Databricks, Azure Devops, Azure Datalake etc. Worked with another most of the major clouds such as GCP and IBMCloud."
+  summary: "I work mainly with Azure Cloud such as Azure DataFactory, Azure SQL Database, Azure Databricks, Azure Devops, Azure Datalake etc. Worked with another most of the major clouds such as GCP and AWS."
 
 # - name: Cloud Computing
 #   logo: /images/sections/skills/cloud.png
