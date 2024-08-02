@@ -5,7 +5,7 @@ description: Implementación de un chatbot para la consulta al plan de gobierno
 
 menu:
   sidebar:
-    name: Chat Bot
+    name: ChatBot al plan de gobierno
     identifier: Chatbot
     weight: 30
 author:
