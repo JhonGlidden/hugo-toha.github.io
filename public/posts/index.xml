@@ -6,7 +6,16 @@
     <description>Recent content in Projects on Jhon Glidden</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Feb 2024 08:06:25 +0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Thu, 14 Mar 2024 08:06:25 +0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Chat Bot</title>
+      <link>http://localhost:1313/posts/chatbot/</link>
+      <pubDate>Thu, 14 Mar 2024 08:06:25 +0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/chatbot/</guid>
+      <description>Desarrollo de PoliChatBot: Una Aplicación Interactiva para Analizar Planes de Gobierno Introducción En la era de la información, la transparencia y la accesibilidad a los datos son cruciales para una ciudadanía informada y participativa. Con este objetivo en mente, desarrollé PoliChatBot, una aplicación interactiva diseñada para ayudar a los ciudadanos a descubrir, comparar y decidir sobre las propuestas de los candidatos presidenciales. Esta aplicación utiliza tecnologías avanzadas como Streamlit, la API de OpenAI y LangChain para proporcionar respuestas precisas y contextuales a preguntas sobre los planes de gobierno.</description>
+    </item>
+    
+    <item>
       <title>LLM</title>
       <link>http://localhost:1313/posts/langchain/</link>
       <pubDate>Wed, 14 Feb 2024 08:06:25 +0600</pubDate>
