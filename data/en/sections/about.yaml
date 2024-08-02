@@ -8,11 +8,11 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Data Engineer
+designation: Data Specialist
 # your company information
-company:
-  name: Grupo Creativo Herrera.
-  url: "https://gcherrera.com"
+# company:
+#   name: Grupo Creativo Herrera.
+#   url: "https://gcherrera.com"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
@@ -62,7 +62,7 @@ socialLinks:
 # For example, you can put link for your resume.
 resourceLinks:
 - title: "Download my CV"
-  url: "files/Jhon_Nacata_CV.pdf"
+  url: "files/Jhon Glidden Nacata CV.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.

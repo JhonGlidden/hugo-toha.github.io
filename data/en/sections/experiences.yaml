@@ -1,9 +1,9 @@
 # section information
 section:
-  name: Experiences
+  name: Experience
   id: experiences
   enable: true
-  weight: 3
+  weight: 2
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
@@ -52,7 +52,7 @@ experiences:
     # darklogo: /images/sections/experiences/company2.jpg
     overview: Grupo Creativo Herrera is a company based in marketing and publicity.
   positions:
-  - designation: Data Engineer
+  - designation: Lead Data Engineer
     start: September 2023
     end: Present
     responsibilities:
