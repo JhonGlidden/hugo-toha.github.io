@@ -85,8 +85,9 @@ PoliChatBot es una herramienta poderosa para la educación y participación ciud
 
 Si deseas probar PoliChatBot, puedes acceder a la aplicación en el siguiente enlace: [PoliChatBot](https://politechbot.streamlit.app/).
 
+{{< img src="/posts/chatbot/lg.png" height="400" width="600" align="center" title="A boat at the sea" >}}
 
-
+{{< vs 3 >}}
 
 ### Futuras Mejoras
 
