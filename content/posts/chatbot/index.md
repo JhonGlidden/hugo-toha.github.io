@@ -1,6 +1,6 @@
 ---
-title: "Chat Bot"
-date: 2024-03-14T08:06:25+06:00
+title: "ChatBot"
+date: 2024-06-14T08:06:25+06:00
 description: Implementación de un chatbot para la consulta al plan de gobierno
 
 menu:

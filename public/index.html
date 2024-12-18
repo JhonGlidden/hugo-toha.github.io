@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<meta name="generator" content="Hugo 0.131.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.140.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <title>Jhon Glidden</title>
     
     
@@ -16,7 +16,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<link rel="stylesheet" href="/application.0780e1c0c5c9350a53e1c8a96607eb652e4fde82406533624b2d3ba5131a07bb.css" integrity="sha256-B4DhwMXJNQpT4cipZgfrZS5P3oJAZTNiSy07pRMaB7s=" />
+<link rel="stylesheet" href="/application.a5839a93400c51a2bb38e472b7f4614679a63d13bc0967a14aad38d42e6c724b.css" integrity="sha256-pYOak0AMUaK7OORyt/RhRnmmPRO8CWehSq041C5scks=" />
 
 
 
@@ -54,26 +54,39 @@
 
     
         
-        
-        
             
             
+                
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-PN85TBHJDX"></script>
+      <script>
+        var doNotTrack = false;
+        if ( null ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-PN85TBHJDX');
+        }
+      </script>
             
-  
 
+            
+            
 
-        
+            
+            
 
-        
-        
+            
+            
 
-        
-	
+            
 
-        
-        
+            
 
-        
+            
         
     
 
@@ -81,7 +94,7 @@
 
 
 <script>
-      theme = localStorage.getItem('darkmode:color-scheme') || 'system';
+      theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light';
       if (theme == 'system') {
         if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
           theme = 'dark';
@@ -92,7 +105,7 @@
       document.documentElement.setAttribute('data-theme', theme);
     </script>
   </head>
-  <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
+  <body data-bs-spy="scroll" data-bs-target="#top-navbar" data-bs-offset="100">
 
     
 
@@ -108,11 +121,21 @@
 
 
 
-  
 
 
   
 
+
+  
+
+
+
+
+  
+  
+    
+  
+  
 
 
 
@@ -124,10 +147,7 @@
 
 
 
-  
-  
-    
-  
+
   
 
 
@@ -157,15 +177,15 @@
       class="navbar-toggler navbar-dark"
       id="navbar-toggler"
       type="button"
-      data-toggle="collapse"
-      data-target="#top-nav-items"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
       aria-label="menu"
     >
       <i data-feather="menu"></i>
     </button>
 
     <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
-      <ul class="nav navbar-nav ml-auto">
+      <ul class="nav navbar-nav ms-auto">
         <li class="nav-item">
           <a class="nav-link" href="#home">Home</a>
         </li>
@@ -214,7 +234,7 @@
             
           
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 
                 
@@ -274,21 +294,32 @@
         
         
         
-          <li class="nav-item dropdown">
+          
+
+
+
+
+<li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
-  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
 </a>
 <div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="light">
     <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
   </a>
+  
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="dark">
     <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
   </a>
+  
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="system">
     <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
   </a>
+  
 </div>
 </li>
 
@@ -415,9 +446,9 @@
     <ul id="typing-carousel-data">
       
         
-          <li>I&#39;m Data Scientist</li>
-        
           <li>I&#39;m Data Engineer</li>
+        
+          <li>I&#39;m Data Scientist</li>
         
           <li>I love MLops &amp; DataOps</li>
         
@@ -472,9 +503,9 @@
       </h5>
       
       <p class="p-1 text-justify">
-        Data Specialist with 4 years of experience. My focus is on turning data into actionable insights to drive informed decision-making. I specialize in predictive modeling, ETL process optimization, and creating impactful data visualizations. I&rsquo;m always seeking new challenges and opportunities to apply my skills to innovative projects.
+        Data Specialist with 5 years of experience. My focus is on turning data into actionable insights to drive informed decision-making. I specialize in predictive modeling, ETL process optimization, and creating impactful data visualizations. I&rsquo;m always seeking new challenges and opportunities to apply my skills to innovative projects.
       </p>
-      <div class="text-container ml-auto">
+      <div class="text-container ms-auto">
         <ul class="social-link d-flex">
           
           <li>
@@ -505,7 +536,7 @@
       
     </div>
     
-    <div class="col-sm-6 pt-5 pl-md-4 pl-sm-3 pt-sm-0">
+    <div class="col-sm-6 pt-5 ps-md-4 ps-sm-3 pt-sm-0">
       <div class="row">
         
           <div class="col-6 col-lg-4 p-2">
@@ -662,7 +693,7 @@
      
        <div class="row align-items-center  d-flex">
          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">1</div>
+  <div class="circle fw-bold">1</div>
 </div>
 
          <div class="col-10 col-lg-8">
@@ -670,49 +701,34 @@
         
         
         
-        <div class="logo-holder"> 
-            <img class="company-logo light-logo" src="/images/sections/experiences/gc.png" alt="" />
-            
-        </div>
-        
         
         
         
         <div class="company-heading">
-            <h5><a href=https://gcherrera.com/ title="Grupo Creativo Herrera" target="_blank" rel="noopener">Grupo Creativo Herrera</a></h5>
+            <h5><a href=https://www.sofka.com.co/ title="SOFKA Technologies" target="_blank" rel="noopener">SOFKA Technologies</a></h5>
             <p class="text-muted">
-                September 2023 - Present
+                September 2024 - Present
             </p>
         </div>
         <p class="text-muted">
-            <i class="fa-solid fa-location-dot"></i> Quito - Ecuador
+            <i class="fa-solid fa-location-dot"></i> Bogota - Colombia
         </p>
         
-        <p>Grupo Creativo Herrera is a company based in marketing and publicity.</p>
+        <p>Sofka is a company that offers software development, quality assurance, RPA, data insights, cloud and other services to various industries.</p>
     </div>
     
     <div class="positions">
     
         <div class="company-heading">
-            <h5 class="designation">Lead Data Engineer</h5>
-            <p class="text-muted">September 2023 -  Present </p>
+            <h5 class="designation">Data Engineer SR</h5>
+            <p class="text-muted">September 2024 -  Present </p>
         </div>
         
         
             <h6 class="text-heading">Responsibilities:</h6>
             <ul class="justify-content-around">
                 
-                    <li><strong>Leading the implementation and optimization of DataOps and MLOps solutions focused on analytic marketing such as:</strong></li>
-                
-                    <li><strong>Advanced ETL Development:</strong> Implementing and optimizing ETL processes using Azure, improving data flow efficiency by 30%.</li>
-                
-                    <li><strong>Machine Learning Models:</strong> Designing and deploying machine learning models predicting key insights in advertising.</li>
-                
-                    <li><strong>Process Automation:</strong> Implementing solutions resulting in time savings and increasing productivity by 20%.</li>
-                
-                    <li><strong>Relational Database Management:</strong> Administering relational databases, ensuring high availability and data security.</li>
-                
-                    <li><strong>Multidisciplinary Collaboration:</strong> Leading multidisciplinary teams to ensure efficiently implemented data solutions.</li>
+                    <li><strong>Data Architecture</strong></li>
                 
             </ul>
         
@@ -739,6 +755,88 @@
    
      
        <div class="row align-items-center justify-content-end d-flex">
+         <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        
+        <div class="logo-holder"> 
+            <img class="company-logo light-logo" src="/images/sections/experiences/gc.png" alt="" />
+            
+        </div>
+        
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://gcherrera.com/ title="Grupo Creativo Herrera" target="_blank" rel="noopener">Grupo Creativo Herrera</a></h5>
+            <p class="text-muted">
+                September 2023 - September 2024
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Quito - Ecuador
+        </p>
+        
+        <p>Grupo Creativo Herrera is a company based in marketing and publicity.</p>
+    </div>
+    
+    <div class="positions">
+    
+        <div class="company-heading">
+            <h5 class="designation">Lead Data Engineer</h5>
+            <p class="text-muted">September 2023 -  September 2024 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li><strong>Leading the implementation and optimization of DataOps and MLOps solutions focused on analytic marketing such as:</strong></li>
+                
+                    <li><strong>Advanced ETL Development:</strong> Implementing and optimizing ETL processes using Azure, improving data flow efficiency by 30%.</li>
+                
+                    <li><strong>Machine Learning Models:</strong> Designing and deploying machine learning models predicting key insights in advertising.</li>
+                
+                    <li><strong>Process Automation:</strong> Implementing solutions resulting in time savings and increasing productivity by 20%.</li>
+                
+                    <li><strong>Relational Database Management:</strong> Administering relational databases, ensuring high availability and data security.</li>
+                
+                    <li><strong>Multidisciplinary Collaboration:</strong> Leading multidisciplinary teams to ensure efficiently implemented data solutions.</li>
+                
+            </ul>
+        
+    
+    </div>
+</div>
+
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle fw-bold">2</div>
+</div>
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle fw-bold">3</div>
+</div>
+
          <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
@@ -781,10 +879,6 @@
     </div>
 </div>
 
-         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">2</div>
-</div>
-
        </div>
      
      
@@ -803,11 +897,7 @@
      
    
      
-       <div class="row align-items-center  d-flex">
-         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">3</div>
-</div>
-
+       <div class="row align-items-center justify-content-end d-flex">
          <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
@@ -859,6 +949,10 @@
     </div>
 </div>
 
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle fw-bold">4</div>
+</div>
+
        </div>
      
      
@@ -877,7 +971,11 @@
      
    
      
-       <div class="row align-items-center justify-content-end d-flex">
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle fw-bold">5</div>
+</div>
+
          <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
@@ -931,10 +1029,6 @@
     </div>
 </div>
 
-         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">4</div>
-</div>
-
        </div>
      
      
@@ -956,15 +1050,19 @@
   
 
 
-<div class="container-fluid anchor pb-5 skills-section">
+<div class="container-fluid anchor pb-5 skills-section" id="skills">
   
     <h1 class="text-center">
         <span id="skills"></span>Skills</h1>
   
+  
   <div class="container d-flex-block">
     <div class="row" id="primary-skills">
+  
       
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
   <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
@@ -979,15 +1077,17 @@
           <h5 class="card-title">Cloud</h5>
         
       </div>
-      <div class="card-body">
+      <div class="card-body text-justify pt-1 pb-1">
         <p class="card-text">I work mainly with Azure Cloud such as Azure DataFactory, Azure SQL Database, Azure Databricks, Azure Devops, Azure Datalake etc. Worked with another most of the major clouds such as GCP and AWS.</p>
       </div>
     </div>
   </a>
 </div>
 
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
   <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
@@ -1000,15 +1100,17 @@
           <h5 class="card-title">Docker</h5>
         
       </div>
-      <div class="card-body">
+      <div class="card-body text-justify pt-1 pb-1">
         <p class="card-text">Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process.</p>
       </div>
     </div>
   </a>
 </div>
 
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
   <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
@@ -1023,14 +1125,14 @@
           <h5 class="card-title">Git</h5>
         
       </div>
-      <div class="card-body">
+      <div class="card-body text-justify pt-1 pb-1">
         <p class="card-text">Experienced with git-based development. Mostly, use Azure Devops and Github.</p>
       </div>
     </div>
   </a>
 </div>
 
-      
+    
     </div>
   </div>
 </div>
@@ -1178,9 +1280,9 @@
                                     </ul>
                                 
                                 
-                                    <button type="button" class="btn btn-link show-more-btn pt-0 ml-2"
+                                    <button type="button" class="btn btn-link show-more-btn pt-0 ms-2"
                                     id="show-more-btn">Show More</button>
-                                    <button type="button" class="btn btn-link show-more-btn hidden pt-0 ml-2"
+                                    <button type="button" class="btn btn-link show-more-btn hidden pt-0 ms-2"
                                     id="show-less-btn">Show Less</button>
                                 
                             </div>
@@ -1237,8 +1339,9 @@
     </div>
     <div class="card-body">
       <a href="/posts/chatbot/" class="post-card-link">
-        <h5 class="card-title">Chat Bot</h5>
-        <p class="card-text post-summary">Desarrollo de PoliChatBot: Una Aplicación Interactiva para Analizar Planes de Gobierno Introducción En la era de la información, la transparencia y la accesibilidad a los datos son cruciales para una ciudadanía informada y participativa. Con este objetivo en mente, desarrollé PoliChatBot, una aplicación interactiva diseñada para ayudar a los ciudadanos a descubrir, comparar y decidir sobre las propuestas de los candidatos presidenciales. Esta aplicación utiliza tecnologías avanzadas como Streamlit, la API de OpenAI y LangChain para proporcionar respuestas precisas y contextuales a preguntas sobre los planes de gobierno.</p>
+        <h5 class="card-title">ChatBot</h5>
+        <p class="card-text post-summary">Desarrollo de PoliChatBot: Una Aplicación Interactiva para Analizar Planes de Gobierno Introducción En la era de la información, la transparencia y la accesibilidad a los datos son cruciales para una ciudadanía informada y participativa. Con este objetivo en mente, desarrollé PoliChatBot, una aplicación interactiva diseñada para ayudar a los ciudadanos a descubrir, comparar y decidir sobre las propuestas de los candidatos presidenciales. Esta aplicación utiliza tecnologías avanzadas como Streamlit, la API de OpenAI y LangChain para proporcionar respuestas precisas y contextuales a preguntas sobre los planes de gobierno.
+</p>
       </a>
       
         <div class="tags">
@@ -1250,12 +1353,12 @@
       
     </div>
     <div class="card-footer">
-      <span class="float-left">
-          Thursday, March 14, 2024
+      <span class="float-start">
+          Friday, June 14, 2024
            | 6 minutes </span>
       <a
       href="/posts/chatbot/"
-      class="float-right btn btn-outline-info btn-sm">Read</a>
+      class="float-end btn btn-outline-info btn-sm">Read</a>
     </div>
   </div>
 </div>
@@ -1273,7 +1376,8 @@
         <h5 class="card-title">LLM</h5>
         <p class="card-text post-summary">Implementación de un Large Language Model con Langchain El proyecto completo con sus dependencias se encuentra en https://github.com/JhonGlidden/Langchain
 Introducción El avance de la inteligencia artificial y el aprendizaje profundo ha llevado a la creación de modelos de lenguaje altamente sofisticados y capaces. En este proyecto, buscamos aprovechar estos avances para entrenar un Large Language Model (LLM) utilizando la API de OpenAI y el innovador framework Langchain.
-Objetivo El propósito principal de este proyecto es desarrollar un modelo que pueda interactuar y responder preguntas sobre un documento de Word específico.</p>
+Objetivo El propósito principal de este proyecto es desarrollar un modelo que pueda interactuar y responder preguntas sobre un documento de Word específico. El modelo se entrenará utilizando un conjunto de datos detallado y luego se utilizará para realizar varias consultas, brindando respuestas precisas y contextuales sobre el contenido del documento.
+</p>
       </a>
       
         <div class="tags">
@@ -1285,12 +1389,12 @@ Objetivo El propósito principal de este proyecto es desarrollar un modelo que p
       
     </div>
     <div class="card-footer">
-      <span class="float-left">
+      <span class="float-start">
           Wednesday, February 14, 2024
            | 53 minutes </span>
       <a
       href="/posts/langchain/"
-      class="float-right btn btn-outline-info btn-sm">Read</a>
+      class="float-end btn btn-outline-info btn-sm">Read</a>
     </div>
   </div>
 </div>
@@ -1325,12 +1429,12 @@ Publicaciones de ciencia y técnologia. Tutoriales y ejercicios. </p>
       
     </div>
     <div class="card-footer">
-      <span class="float-left">
+      <span class="float-start">
           Thursday, June 8, 2023
            | 1 minute </span>
       <a
       href="/posts/introduction/"
-      class="float-right btn btn-outline-info btn-sm">Read</a>
+      class="float-end btn btn-outline-info btn-sm">Read</a>
     </div>
   </div>
 </div>
@@ -1388,7 +1492,7 @@ Publicaciones de ciencia y técnologia. Tutoriales y ejercicios. </p>
   <i class="fa-solid fa-xmark hidden"></i>
   <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
   <h4 class="title" id="achievement-title">Best Presenter</h4>
-  <div class="caption hidden col-lg-6 text-left" id="caption">
+  <div class="caption hidden col-lg-6 text-start" id="caption">
     <h4>Best Presenter</h4>
     <p>Best presenter in the 2020 XYZ conference.</p>
     
@@ -1417,7 +1521,7 @@ Publicaciones de ciencia y técnologia. Tutoriales y ejercicios. </p>
   <i class="fa-solid fa-xmark hidden"></i>
   <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
   <h4 class="title" id="achievement-title">Champion</h4>
-  <div class="caption hidden col-lg-6 text-left" id="caption">
+  <div class="caption hidden col-lg-6 text-start" id="caption">
     <h4>Champion</h4>
     <p>Champion in cycling inter-city cycling championship 2020.</p>
     
@@ -1446,7 +1550,7 @@ Publicaciones de ciencia y técnologia. Tutoriales y ejercicios. </p>
   <i class="fa-solid fa-xmark hidden"></i>
   <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
   <h4 class="title" id="achievement-title">Graduation</h4>
-  <div class="caption hidden col-lg-6 text-left" id="caption">
+  <div class="caption hidden col-lg-6 text-start" id="caption">
     <h4>Graduation</h4>
     <p>Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.</p>
     
@@ -1475,7 +1579,7 @@ Publicaciones de ciencia y técnologia. Tutoriales y ejercicios. </p>
   <i class="fa-solid fa-xmark hidden"></i>
   <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
   <h4 class="title" id="achievement-title">Award Winner</h4>
-  <div class="caption hidden col-lg-6 text-left" id="caption">
+  <div class="caption hidden col-lg-6 text-start" id="caption">
     <h4>Award Winner</h4>
     <p>Wined best paper award at IEE Conference 2020.</p>
     
@@ -1556,7 +1660,7 @@ Publicaciones de ciencia y técnologia. Tutoriales y ejercicios. </p>
 
   <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
     <div class="container pt-5">
-      <div class="row text-left">
+      <div class="row text-start">
         
         
         <div class="col-md-4 col-sm-12">
@@ -1592,7 +1696,7 @@ Publicaciones de ciencia y técnologia. Tutoriales y ejercicios. </p>
     
     <hr />
     <div class="container">
-      <div class="row text-left">
+      <div class="row text-start">
         <div class="col-md-4">
           <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
             <img src="/images/theme-logo_hu16779671404603505019.png" alt="Toha Theme Logo">
@@ -1600,7 +1704,7 @@ Publicaciones de ciencia y técnologia. Tutoriales y ejercicios. </p>
           </a>
         </div>
         <div class="col-md-4 text-center">© 2024 Copyright.</div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-4 text-end">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
           <img
             src="/images/hugo-logo.svg"
@@ -1615,7 +1719,7 @@ Publicaciones de ciencia y técnologia. Tutoriales y ejercicios. </p>
   </footer>
 
 
-    <script src="/application.d89e4d941fde05d4d022d611a732a95728bbc84d00f67f588bb62286cd1a97bb.js" integrity="sha256-2J5NlB/eBdTQItYRpzKpVyi7yE0A9n9Yi7Yihs0al7s=" defer></script>
+    <script src="/application.66b56c8a95455e8efb25b757adec3b78230587fd51bfcad33e8c7c90fb76d0df.js" integrity="sha256-ZrVsipVFXo77JbdXrew7eCMFh/1Rv8rTPox8kPt20N8=" defer></script>
 
 
     

@@ -44,6 +44,22 @@ experiences:
 
 
 - company:
+    name: SOFKA Technologies
+    url: "https://www.sofka.com.co/"
+    location: Bogota - Colombia
+    logo: #/images/sections/experiences/gc.png
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/experiences/company2.jpg
+    overview: Sofka is a company that offers software development, quality assurance, RPA, data insights, cloud and other services to various industries.
+  positions:
+  - designation: Data Engineer SR
+    start: September 2024
+    end: Present
+    responsibilities:
+    - "**Data Architecture**"
+
+
+- company:
     name: Grupo Creativo Herrera
     url: "https://gcherrera.com/"
     location: Quito - Ecuador
@@ -54,7 +70,7 @@ experiences:
   positions:
   - designation: Lead Data Engineer
     start: September 2023
-    end: Present
+    end: September 2024
     responsibilities:
     - "**Leading the implementation and optimization of DataOps and MLOps solutions focused on analytic marketing such as:**"
     - "**Advanced ETL Development:** Implementing and optimizing ETL processes using Azure, improving data flow efficiency by 30%."

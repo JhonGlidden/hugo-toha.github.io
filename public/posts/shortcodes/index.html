@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<link rel="stylesheet" href="/application.0780e1c0c5c9350a53e1c8a96607eb652e4fde82406533624b2d3ba5131a07bb.css" integrity="sha256-B4DhwMXJNQpT4cipZgfrZS5P3oJAZTNiSy07pRMaB7s=" />
+<link rel="stylesheet" href="/application.a5839a93400c51a2bb38e472b7f4614679a63d13bc0967a14aad38d42e6c724b.css" integrity="sha256-pYOak0AMUaK7OORyt/RhRnmmPRO8CWehSq041C5scks=" />
 
 
 
@@ -43,30 +43,44 @@
 <meta name="description" content="Shortcodes sample" />
 
 
-    
 
     
-        
-        
+
+    
         
             
             
+                
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-PN85TBHJDX"></script>
+      <script>
+        var doNotTrack = false;
+        if ( null ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-PN85TBHJDX');
+        }
+      </script>
             
-  
 
+            
+            
 
-        
+            
+            
 
-        
-        
+            
+            
 
-        
-	
+            
 
-        
-        
+            
 
-        
+            
         
     
 
@@ -74,7 +88,7 @@
 
 
 <script>
-      theme = localStorage.getItem('darkmode:color-scheme') || 'system';
+      theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light';
       if (theme == 'system') {
         if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
           theme = 'dark';
@@ -86,7 +100,7 @@
     </script>
   </head>
 
-  <body class="type-posts kind-page" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+  <body class="type-posts kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
     <div class="container-fluid bg-secondary wrapper">
       
       
@@ -104,19 +118,13 @@
 
 
 
-  
 
 
   
 
 
+  
 
-
-  
-  
-    
-  
-  
 
 
 
@@ -128,6 +136,19 @@
 
 
 
+  
+  
+    
+  
+  
+
+
+
+
+
+
+
+  
 
 
 
@@ -155,15 +176,15 @@
       class="navbar-toggler navbar-light"
       id="navbar-toggler"
       type="button"
-      data-toggle="collapse"
-      data-target="#top-nav-items"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
       aria-label="menu"
     >
       <i data-feather="menu"></i>
     </button>
 
     <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
-      <ul class="nav navbar-nav ml-auto">
+      <ul class="nav navbar-nav ms-auto">
         <li class="nav-item">
           <a class="nav-link" href="/#home">Home</a>
         </li>
@@ -212,7 +233,7 @@
             
           
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 
                 
@@ -272,21 +293,32 @@
         
         
         
-          <li class="nav-item dropdown">
+          
+
+
+
+
+<li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
-  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
 </a>
 <div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="light">
     <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
   </a>
+  
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="dark">
     <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
   </a>
+  
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="system">
     <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
   </a>
+  
 </div>
 </li>
 
@@ -428,13 +460,13 @@
       
       <div class="page-content">
         
-        <div class="author-profile ml-auto align-self-lg-center">
+        <div class="author-profile ms-auto align-self-lg-center">
           <img class="rounded-circle" src='/images/author/me_hu6722184840679985691.png' alt="Author Image">
           <h5 class="author-name">Jhon Glidden Ñacata</h5>
           <p class="text-muted">Monday, June 8, 2020 | 3 minutes</p>
         </div>
         
-        
+
         <div class="title">
           <h1>Shortcodes Samples</h1>
         </div>
@@ -642,7 +674,7 @@ This is line two. It should have <code>4rem</code> vertical space with previous 
 
 
 
-<video class="video-player" id="video-110" playsinline controls>
+<video class="video-player" id="video-28" playsinline controls>
   <source src="/videos/sample.mp4" type="video/mp4" />
 </video>
 
@@ -840,7 +872,7 @@ erDiagram
         </div>
 
         
-        <div class="row pl-3 pr-3">
+        <div class="row ps-3 pe-3">
         
           <div class="col-md-6 share-buttons">
           
@@ -950,7 +982,7 @@ erDiagram
     </div>
   </div>
   
-  <a id="scroll-to-top" class="btn"  data-toggle="tooltip" data-placement="left" title="Scroll to top">
+  <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Scroll to top">
     <i class="fas fa-chevron-circle-up"></i>
   </a>
 </section>
@@ -961,7 +993,7 @@ erDiagram
   <section class="toc-section" id="toc-section">
     
     <div class="toc-holder">
-      <h5 class="text-center pl-3">Table of Contents</h5>
+      <h5 class="text-center ps-3">Table of Contents</h5>
       <hr>
       <div class="toc">
         <nav id="TableOfContents">
@@ -1062,7 +1094,7 @@ erDiagram
 
   <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
     <div class="container pt-5">
-      <div class="row text-left">
+      <div class="row text-start">
         
         
         <div class="col-md-4 col-sm-12">
@@ -1098,7 +1130,7 @@ erDiagram
     
     <hr />
     <div class="container">
-      <div class="row text-left">
+      <div class="row text-start">
         <div class="col-md-4">
           <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
             <img src="/images/theme-logo_hu16779671404603505019.png" alt="Toha Theme Logo">
@@ -1106,7 +1138,7 @@ erDiagram
           </a>
         </div>
         <div class="col-md-4 text-center">© 2024 Copyright.</div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-4 text-end">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
           <img
             src="/images/hugo-logo.svg"
@@ -1121,7 +1153,7 @@ erDiagram
   </footer>
 
 
-    <script src="/application.d89e4d941fde05d4d022d611a732a95728bbc84d00f67f588bb62286cd1a97bb.js" integrity="sha256-2J5NlB/eBdTQItYRpzKpVyi7yE0A9n9Yi7Yihs0al7s=" defer></script>
+    <script src="/application.66b56c8a95455e8efb25b757adec3b78230587fd51bfcad33e8c7c90fb76d0df.js" integrity="sha256-ZrVsipVFXo77JbdXrew7eCMFh/1Rv8rTPox8kPt20N8=" defer></script>
 
 
     
