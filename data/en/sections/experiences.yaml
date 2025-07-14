@@ -71,7 +71,7 @@ experiences:
     # darklogo: /images/sections/experiences/company2.jpg
     overview: Grupo Creativo Herrera is a company based in marketing and publicity.
   positions:
-  - designation: Lead Data Engineer
+  - designation: Data Engineer
     start: September 2023
     end: September 2024
     responsibilities:
