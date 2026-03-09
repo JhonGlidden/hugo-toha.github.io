@@ -46,96 +46,77 @@ experiences:
 
 
 - company:
-    name: SOFKA Technologies
-    url: "https://www.sofka.com.co/"
-    location: Bogota - Colombia
-    logo: #/images/sections/experiences/gc.png
-    # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/experiences/company2.jpg
-    overview: Sofka is a company that offers software development, quality assurance, RPA, data insights, cloud and other services to various industries.
+    name: Tata Consultancy Services
+    url: "https://www.tcs.com/"
+    location: Quito, Ecuador
+    logo: ""
+    overview: Global technology services and digital transformation for high-demand industries.
   positions:
-  - designation: Data Engineer SR
-    start: September 2024
-    end: Present
+  - designation: Senior Data Engineer
+    start: Nov 2025
     responsibilities:
-    - "**Data Architecture**"
-    - "Design and implement cloud-based data architectures, ensuring data governance and scalability."
-
+    - Developed and implemented transactional architecture for digital banking across web and mobile channels.
+    - Optimized and analyzed notification architecture for web and mobile banking platforms.
+    - Gathered requirements and modeled end-to-end data flows between digital channels and cloud systems.
 
 - company:
-    name: Grupo Creativo Herrera
-    url: "https://gcherrera.com/"
-    location: Quito - Ecuador
-    logo: /images/sections/experiences/gc.png
-    # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/experiences/company2.jpg
-    overview: Grupo Creativo Herrera is a company based in marketing and publicity.
+    name: Sofka Technologies
+    url: "https://www.sofka.com.co/"
+    location: Bogota, Colombia
+    logo: ""
+    overview: Software and data consulting for industries including banking and insurance.
   positions:
   - designation: Data Engineer
-    start: September 2023
-    end: September 2024
+    start: Aug 2024
+    end: Nov 2025
     responsibilities:
-    - "**Leading the implementation and optimization of DataOps and MLOps solutions focused on analytic marketing such as:**"
-    - "**Advanced ETL Development:** Implementing and optimizing ETL processes using Azure, improving data flow efficiency by 30%."
-    - "**Machine Learning Models:** Designing and deploying machine learning models predicting key insights in advertising."
-    - "**Process Automation:** Implementing solutions resulting in time savings and increasing productivity by 20%."
-    - "**Relational Database Management:** Administering relational databases, ensuring high availability and data security."
-    - "**Multidisciplinary Collaboration:** Leading multidisciplinary teams to ensure efficiently implemented data solutions."
+    - Designed and implemented cloud data architectures with governance and scalability.
+    - Reduced data platform costs by 12% in insurance and banking use cases.
+    - Created and migrated data pipelines from Oracle SQL to Databricks on Azure.
+    - Migrated enterprise databases to Databricks with a business continuity focus.
 
 - company:
-    name: 
-    url: ""
-    location: Quito - Ecuador
-    logo: 
-    # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/experiences/company2.jpg
-    overview: I was a freelancer.
+    name: Herrera | Havas
+    url: "https://gcherrera.com/"
+    location: Quito, Ecuador
+    logo: /images/sections/experiences/gc.png
+    overview: Marketing and advertising agency focused on analytics and campaign performance.
   positions:
-  - designation: Data Scientist - Data Engineer
-    start: March 2023
-    end: August 2023
+  - designation: Data Engineer
+    start: Jul 2023
+    end: Oct 2024
     responsibilities:
-    - "**Data Extraction and Structuring**: Handling Cloud APIs to process images and PDFs, facilitating analysis and decisions in **Document Cloud.**"
-    - "**Analytics Consulting**: Designing and evaluating strategies with a strong analytical focus and practical results."
-
-
+    - Implemented Azure data architectures, improving ETL efficiency by 30%.
+    - Implemented DataOps solutions for marketing analytics, increasing productivity by 20%.
+    - Developed and deployed machine learning models to deliver key campaign insights.
 
 - company:
     name: Banco Pichincha
     url: "https://www.pichincha.com/"
-    location: Quito - Ecuador
+    location: Quito, Ecuador
     logo: /images/sections/experiences/bp.jpg
-    # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/experiences/company2.jpg
-    overview: Banco Pichincha is the LEADER in its market in image, market share, products, and service quality, focusing its efforts towards the customer.
+    overview: Leading financial institution in Ecuador focused on risk and business analytics.
   positions:
   - designation: Data Scientist
-    start: September 2022
-    end: January 2023
+    start: Sep 2022
+    end: Dec 2022
     responsibilities:
-    - "**Conducted advanced analyses and risk management to optimize financial and credit strategies:**"
-    - "**Credit Card Risk Modeling:** Developed predictive models to evaluate credit risk, reducing delinquency losses."
-    - "**Machine Learning Implementation**: Maintained models improving operational efficiency by 10%."
-    - "**Big Data in Credit Information**: Managed large volumes of data to extract insights influencing high-level decisions."
+    - Developed predictive credit-risk models to reduce delinquency losses.
+    - Monitored and maintained machine learning models that improved operational efficiency by 10%.
+    - Analyzed large data volumes to support high-level decision-making.
 
 - company:
-    name: Ingelsi & Cia. Ltda.
+    name: Ingelsi Cia. Ltda.
     url: "https://www.ingelsi.com.ec/"
-    location: Quito - Ecuador
+    location: Quito, Ecuador / Bogota, Colombia
     logo: /images/sections/experiences/inge.jpeg
-    # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/experiences/company3.jpg
-    overview: Ingelsi & Cia. Ltda. is a company with 30 years of experience in selling analytical software and consulting services in the field of data intelligence
+    overview: Consulting firm specialized in data intelligence, advanced analytics, and enterprise solutions.
   positions:
   - designation: Data Scientist
-    start: May 2020
-    end: July 2022
-    responsibilities: 
-    - "**Key in implementing analytic and business intelligence solutions for corporate clients.**"
-    # - Count lost of interns.
-    # - Count more interns.
-    # - Count me as an intern.
-    - "**Machine Learning Model Creation**: Designed models improving credit decision accuracy by up to 15%."
-    - "**Business Intelligence Development**: Implemented analytical dashboards visualizing real-time performance indicators."
-    - "**Technical Training**: Led workshops and courses improving team's technical skills by 20%."
-    - "**ETL Processes**: Optimized extraction, transformation, and loading processes, applied NLP for sentiment analysis in customer data, enhancing marketing and customer service strategies."
+    start: Feb 2020
+    end: Jul 2022
+    responsibilities:
+    - Designed machine learning models that improved credit decision accuracy by 10%.
+    - Implemented dashboards for real-time KPI monitoring.
+    - Led workshops and training sessions that improved team technical skills by 20%.
+    - Applied NLP for sentiment analysis in advertising campaigns.

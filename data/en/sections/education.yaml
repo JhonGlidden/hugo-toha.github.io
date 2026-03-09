@@ -34,12 +34,12 @@ degrees:
 #     url: "#"
 
 
-- name: MSc. in Data Science and Big Data
+- name: MSc in Big Data and Data Science
   icon: fa-graduation-cap
-  timeframe: 2023-sep2024
+  timeframe: Sept 2024
   institution:
-    name: IMF Smart Education (Esp) - Universidad Hemispheres (Ecu)
-    url: "https://www.uhemisferios.edu.ecs"
+    name: IMF Smart Education - Universidad de los Hemisferios
+    url: "https://www.uhemisferios.edu.ec"
     logo: /images/sections/education/imf.png
     # Can optionally show a different logo for dark theme
     # darklogo: /images/sections/education/university.jpg
@@ -53,16 +53,9 @@ degrees:
     collapseAfter: 4
     courses:
     - name: Big Data architecture and solutions
-
     - name: Data modeling and exploitation through Big Data
-      achieved: 3.80
-      outOf: 4
-    - name: Data analytics and machine learning models applied to BIG DATA
-      # achieved: 3.5
-      # outOf: 4
+    - name: Data analytics and machine learning models applied to Big Data
     - name: Natural Language Processing
-      # achieved: 3.75
-      # outOf: 4
   # publications: #(optional)
   # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   #   url: "#"
@@ -80,9 +73,9 @@ degrees:
   #     content: Fusce eu augue ut odio porttitor pulvinar.
 
 
-- name: Mathematical Engineer
+- name: Mathematical Engineering
   icon: fa-university
-  timeframe: 2014-2021
+  timeframe: Sept 2021
   institution:
     name: National Polytechnic School
     url: "https://www.epn.edu.ec"
@@ -101,13 +94,8 @@ degrees:
     collapseAfter: 4
     courses:
     - name: Probability Theory
-
     - name: Data structures and algorithms
-      achieved: 3.80
-      outOf: 4
     - name: Data mining
-      # achieved: 3.5
-      # outOf: 4
     - name: Graph Theory
     - name: Time Series
     - name: Actuarial Mathematics

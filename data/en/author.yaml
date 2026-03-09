@@ -3,18 +3,21 @@ name: "Jhon Glidden Ñacata"
 nickname: "Jhon Glidden"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I'm"
+subtitle: ""
 image: "images/author/am.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "jhonglidden@gmail.com"
-  #phone: ""
+  phone: "+593 97 928 9168"
   github: JhonGlidden
   linkedin: jhon-glidden
   #researchgate: john-doe
 
 # some summary about what you do
 summary:
-  - "I'm Data Engineer"
-  - "I'm Data Scientist"
-  - I work on open-source projects
-  - I love to work with teams
+  - "Scalable architectures and end-to-end ETL"
+  - "Insights for strategic decisions"
+  - "Open source code development"
+  - "Team collaboration"
+  - "Data Engineer"
+  - "Data Scientist"

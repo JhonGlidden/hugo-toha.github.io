@@ -1,0 +1,37 @@
+{{ $experience := .experience }}
+{{ $designation := "" }}
+{{ if and $experience.positions (gt (len $experience.positions) 0) }}
+  {{ $designation = lower ((index $experience.positions 0).designation) }}
+{{ end }}
+{{ $company := lower $experience.company.name }}
+{{ $overview := lower $experience.company.overview }}
+{{ $context := printf "%s %s %s" $designation $company $overview }}
+
+{{ $iconClass := "fa-solid fa-briefcase" }}
+{{ $iconLabel := "Professional experience" }}
+{{ $iconType := "general" }}
+
+{{ if or (in $designation "freelance") (in $company "freelance") }}
+  {{ $iconClass = "fa-solid fa-user-tie" }}
+  {{ $iconLabel = "Freelance and consulting experience" }}
+  {{ $iconType = "freelance" }}
+{{ else if or (in $context "scientist") (in $context "machine learning") (in $context "mlops") (in $context "nlp") }}
+  {{ $iconClass = "fa-solid fa-brain" }}
+  {{ $iconLabel = "Data science and machine learning experience" }}
+  {{ $iconType = "science" }}
+{{ else if or (in $context "engineer") (in $context "dataops") (in $context "etl") (in $context "pipeline") (in $context "cloud") }}
+  {{ $iconClass = "fa-solid fa-database" }}
+  {{ $iconLabel = "Data engineering and platform experience" }}
+  {{ $iconType = "engineering" }}
+{{ else if or (in $context "analyst") (in $context "bi") (in $context "dashboard") }}
+  {{ $iconClass = "fa-solid fa-chart-line" }}
+  {{ $iconLabel = "Analytics and business intelligence experience" }}
+  {{ $iconType = "analytics" }}
+{{ end }}
+
+<div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle fw-bold experience-icon-circle experience-icon--{{ $iconType }}" title="{{ $iconLabel }}">
+    <i class="{{ $iconClass }}" aria-hidden="true"></i>
+    <span class="visually-hidden">{{ $iconLabel }}</span>
+  </div>
+</div>

@@ -23,18 +23,35 @@ skills:
 
 
 
-- name: Cloud
-  logo: /images/sections/skills/cloud.png
-  summary: "I work mainly with Azure Cloud such as Azure DataFactory, Azure SQL Database, Azure Databricks, Azure Devops, Azure Datalake etc. Worked with another most of the major clouds such as GCP and AWS."
+- name: Data Engineering
+  icon: "fa-solid fa-database"
+  summary: "Design of scalable data architectures, ETL/ELT pipelines, and data modeling for financial services, marketing, and digital banking."
+  url: "https://learn.microsoft.com/en-us/azure/architecture/data-guide/"
 
-# - name: Cloud Computing
-#   logo: /images/sections/skills/cloud.png
-#   summary: "Worked with another most of the major clouds such as GCP and IBMCloud."
+- name: AI Engineering
+  icon: "fa-solid fa-brain"
+  summary: "Development and deployment of machine learning and AI models with monitoring, retraining, and MLOps best practices."
+  url: "https://ml-ops.org/"
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  #url: "https://www.docker.com/"
+- name: Cloud Platforms
+  icon: "fa-solid fa-cloud"
+  summary: "Hands-on experience with Azure, Data Factory, Databricks, Azure DevOps, Data Lake, GCP, and AWS for production-grade data solutions."
+  url: "https://azure.microsoft.com/"
+
+- name: Python & SQL
+  icon: "fa-solid fa-code"
+  summary: "Python, SQL, R, PySpark, DAX, and C# for data engineering, advanced analytics, predictive modeling, and automation."
+  url: "https://www.python.org/"
+
+- name: Data & BI Tooling
+  icon: "fa-solid fa-chart-column"
+  summary: "Power BI, SQL Server, SSIS, PostgreSQL, Oracle SQL, Airflow, Pentaho, MLflow, Spark, MongoDB, SharePoint, and Power Automate."
+  url: "https://powerbi.microsoft.com/"
+
+- name: Generative AI & Apps
+  icon: "fa-solid fa-robot"
+  summary: "LangChain, GPTs, LLMs, and Streamlit to build applied AI solutions and interactive analytics experiences."
+  url: "https://www.langchain.com/"
 
 
 # - name: Prometheus
@@ -46,10 +63,10 @@ skills:
 #   logo: /images/sections/skills/linux.png
 #   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Azure Devops and Github."
-  #url: "https://git-scm.com/"
+# - name: Git
+#   logo: /images/sections/skills/git.png
+#   summary: "Experienced with git-based development. Mostly, use Azure Devops and Github."
+#   #url: "https://git-scm.com/"
 
 # - name: C++
 #   logo: /images/sections/skills/c++.png
